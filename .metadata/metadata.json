@@ -1,0 +1,20 @@
+{
+  "name" : "Imperium Mechanika",
+	"id" : "",
+  "version" : "1",
+  "supported_game_version" : "",
+  "short_description" : "Imperium Mechanika is a steampunk-inspired expansion for Basileia Romaion 1736, where imperial grandeur meets the fires of innovation.",
+  "tags" : [],
+  "relationships" : [
+    {
+      "rel_type" : "dependency",
+      "id" : "2880120246",
+      "display_name" : "Basileia Romaion 1736",
+      "resource_type" : "mod",
+      "version" : "1.*"
+    }
+  ],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

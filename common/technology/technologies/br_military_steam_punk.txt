@@ -1,0 +1,147 @@
+﻿br_tech_automatoi_stratiotai = {
+	# Early mechanical enhancements for infantry and artillery crews.
+	# Inspired by the legendary automata of ancient inventors like Heron of Alexandria,
+	# adapted into semi-mechanical loaders, cranking devices, and defensive gear.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		repeaters
+	}
+
+	modifier = {
+		unit_kill_rate_add = 0.02
+		unit_army_defense_add = 3
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_kleisoura_behemoths = {
+	# Massive steam-powered siege engines designed to break fortifications and disrupt enemy formations.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+
+	modifier = {
+		unit_army_offense_add = 3
+		unit_army_defense_add = 2
+	}
+
+	ai_weight = {
+		value = 1.5
+	}
+}
+
+br_tech_syndesmos_mechanikai = {
+	# Mechanized logistics corps using steam-driven supply platforms and mechanical wagons to support extended campaigns.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		logistics
+		hydraulic_cranes
+	}
+
+	modifier = {
+		unit_supply_consumption_mult = -0.1
+		state_conscription_rate_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_cheiroballistra_enhancements = {
+	# Development of rotary-firing mechanisms, creating devastating rapid-fire projectile launchers for infantry support.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		handcranked_machine_gun
+		percussion_cap
+	}
+
+	modifier = {
+		unit_kill_rate_add = 0.03
+		unit_army_offense_add = 2
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_naus_hypoplon = {
+	# Steam-powered submersible vessels designed for stealth attacks and disruption of enemy supply lines at sea.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		paddle_steamer
+		drydocks
+	}
+
+	modifier = {
+		unit_navy_offense_mult = 0.05
+		unit_navy_evasion_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_strategikon_automaton = {
+	# Enhanced clockwork augmentations for infantry: recoil dampening exoskeletons and automated weapon loading systems.
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		br_tech_automatoi_stratiotai
+		bolt_action_rifles
+	}
+
+	modifier = {
+		unit_army_offense_add = 3
+		unit_army_defense_add = 2
+		unit_army_experience_gain_mult = 0.05
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_pneumatika_epibatikon = {
+	# Experimental high-pressure pneumatic and steam weaponry adapted for close assault infantry units.
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	category = military
+
+	unlocking_technologies = {
+		handcranked_machine_gun
+		br_tech_cheiroballistra_enhancements
+	}
+
+	modifier = {
+		unit_kill_rate_add = 0.04
+		unit_army_defense_mult = -0.05 # slight vulnerability due to experimental equipment
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}

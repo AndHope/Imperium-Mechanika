@@ -13,6 +13,7 @@
 	modifier = {
 		unit_kill_rate_add = 0.02
 		unit_army_defense_add = 3
+		country_military_goods_cost_mult = 0.01
 	}
 
 	ai_weight = {
@@ -33,6 +34,10 @@ br_tech_kleisoura_behemoths = {
 	modifier = {
 		unit_army_offense_add = 3
 		unit_army_defense_add = 2
+		unit_devastation_mult = 0.1
+		unit_occupation_mult = 0.1
+		unit_morale_damage_mult = 0.05
+		country_military_goods_cost_mult = 0.02
 	}
 
 	ai_weight = {
@@ -53,7 +58,10 @@ br_tech_syndesmos_mechanikai = {
 
 	modifier = {
 		unit_supply_consumption_mult = -0.1
-		state_conscription_rate_mult = 0.1
+		military_formation_mobilization_speed_mult = 0.1
+        military_formation_movement_speed_mult = 0.1
+		military_formation_attrition_risk_mult = -0.1
+		country_military_goods_cost_mult = 0.02
 	}
 
 	ai_weight = {
@@ -75,6 +83,8 @@ br_tech_cheiroballistra_enhancements = {
 	modifier = {
 		unit_kill_rate_add = 0.03
 		unit_army_offense_add = 2
+		unit_morale_damage_mult = 0.02
+		country_military_goods_cost_mult = 0.01
 	}
 
 	ai_weight = {
@@ -94,8 +104,8 @@ br_tech_naus_hypoplon = {
 	}
 
 	modifier = {
-		unit_navy_offense_mult = 0.05
-		unit_navy_evasion_mult = 0.1
+		unit_navy_offense_mult = 0.1
+		unit_convoy_raiding_mult = 0.1
 	}
 
 	ai_weight = {
@@ -118,6 +128,7 @@ br_tech_strategikon_automaton = {
 		unit_army_offense_add = 3
 		unit_army_defense_add = 2
 		unit_army_experience_gain_mult = 0.05
+		country_military_goods_cost_mult = 0.01
 	}
 
 	ai_weight = {
@@ -138,7 +149,8 @@ br_tech_pneumatika_epibatikon = {
 
 	modifier = {
 		unit_kill_rate_add = 0.04
-		unit_army_defense_mult = -0.05 # slight vulnerability due to experimental equipment
+		unit_morale_damage_mult = 0.05
+		country_military_goods_cost_mult = 0.02
 	}
 
 	ai_weight = {

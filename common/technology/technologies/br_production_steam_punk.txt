@@ -1,0 +1,14 @@
+﻿br_tech_ergastiria_aeternum = {
+	# The rebirth of industry through steam and mechanical automation, expanding production capabilities and strengthening the material foundation of the Empire.
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/mechanized_workshops.dds" # Suggest factory, machine, or steam engine themed icon
+	category = production
+
+	modifier = {
+		country_weekly_innovation_max_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}

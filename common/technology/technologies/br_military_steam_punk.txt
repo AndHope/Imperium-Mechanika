@@ -18,11 +18,12 @@ br_tech_automatoi_stratiotai = {
 	# Early mechanical enhancements for infantry and artillery crews.
 	# Inspired by the legendary automata of ancient inventors like Heron of Alexandria,
 	# adapted into semi-mechanical loaders, cranking devices, and defensive gear.
-	era = era_4
+	era = era_3
 	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
 	category = military
 
 	unlocking_technologies = {
+		#rifling
 		br_tech_strategikon_mechanika
 	}
 
@@ -39,19 +40,21 @@ br_tech_automatoi_stratiotai = {
 
 br_tech_syndesmos_mechanikai = {
 	# Mechanized logistics corps using steam-driven supply platforms and mechanical wagons to support extended campaigns.
-	era = era_4
+	era = era_3
 	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
 	category = military
 
 	unlocking_technologies = {
+		#logistics
 		br_tech_strategikon_mechanika
 	}
 
 	modifier = {
-		unit_supply_consumption_mult = -0.1
-		military_formation_mobilization_speed_mult = 0.1
+		#unit_supply_consumption_mult = -0.1
         military_formation_movement_speed_mult = 0.1
 		military_formation_attrition_risk_mult = -0.1
+		unit_recovery_rate_add = 0.05
+		battle_casualties_mult = -0.05
 		country_military_goods_cost_mult = 0.02
 	}
 
@@ -62,12 +65,13 @@ br_tech_syndesmos_mechanikai = {
 
 br_tech_cheiroballistra_enhancements = {
 	# Development of rotary-firing mechanisms, creating devastating rapid-fire projectile launchers for infantry support.
-	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
 	category = military
 
 	unlocking_technologies = {
-		br_tech_strategikon_mechanika
+		#shell_gun
+		br_tech_automatoi_stratiotai
 	}
 
 	modifier = {
@@ -85,7 +89,7 @@ br_tech_cheiroballistra_enhancements = {
 br_tech_naus_hypoplon = {
 	# Steam-powered submersible vessels designed for stealth attacks and disruption of enemy supply lines at sea.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	texture = "gfx/interface/icons/invention_icons/naus_hypoplon.png"
 	category = military
 
 	unlocking_technologies = {
@@ -109,7 +113,7 @@ br_tech_strategikon_automaton = {
 	category = military
 
 	unlocking_technologies = {
-		br_tech_automatoi_stratiotai
+		br_tech_pneumatika_epibatikon
 	}
 
 	modifier = {
@@ -126,8 +130,8 @@ br_tech_strategikon_automaton = {
 
 br_tech_pneumatika_epibatikon = {
 	# Experimental high-pressure pneumatic and steam weaponry adapted for close assault infantry units.
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
 	category = military
 
 	unlocking_technologies = {
@@ -146,14 +150,15 @@ br_tech_pneumatika_epibatikon = {
 }
 
 br_tech_kleisoura_behemoths = {
-	# Massive steam-powered siege engines designed to break fortifications and disrupt enemy formations.
+	# The deployment of early steam-driven armored landships, inspired by naval ironclads, adapted to breach fortifications and break siege lines.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	texture = "gfx/interface/icons/invention_icons/kleisoura_behemoth.png"
 	category = military
 
 	unlocking_technologies = {
-		br_tech_naus_hypoplon
-		br_tech_pneumatika_epibatikon
+		#br_tech_naus_hypoplon
+		#ironclad_tech
+		br_tech_syndesmos_mechanikai
 	}
 
 	modifier = {

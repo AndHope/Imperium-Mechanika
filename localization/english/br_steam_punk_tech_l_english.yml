@@ -16,7 +16,8 @@
  br_tech_pneumatika_epibatikon: "Pneumatika Epibatikon"
  br_tech_pneumatika_epibatikon_desc: "High-pressure pneumatic and steam-propelled weaponry is deployed for shock assault infantry. Devastating at close range, these experimental units trade durability for overwhelming offensive power."
  br_tech_kleisoura_behemoths: "Kleisoura Behemoths"
- br_tech_kleisoura_behemoths_desc: "Massive steam-driven siege engines are unleashed on the battlefield. Heavily armored and bristling with weaponry, these behemoths crush fortifications and scatter enemy formations, reshaping siege warfare."
+ br_tech_kleisoura_behemoths_desc: "Early steam-driven armored landships, inspired by naval ironclads, are deployed to breach fortifications and break siege lines. Though slow and cumbersome, these mechanical behemoths batter defenses with relentless force and shatter enemy morale."
+
  br_tech_naus_hypoplon: "Naus Hypoplon"
  br_tech_naus_hypoplon_desc: "Steam-driven submersible vessels operate beneath the waves, capable of stealth attacks and disruption of enemy shipping lines. Naval warfare enters a new dimension of hidden threat."
 

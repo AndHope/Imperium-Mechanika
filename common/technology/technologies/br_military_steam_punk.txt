@@ -27,6 +27,7 @@ br_tech_automatoi_stratiotai = {
 		unit_kill_rate_add = 0.02
 		unit_army_defense_add = 3
 		country_military_goods_cost_mult = 0.01
+		#building_training_rate_mult = -0.02
 	}
 
 	ai_weight = {
@@ -50,6 +51,7 @@ br_tech_syndesmos_mechanikai = {
 		battle_casualties_mult = -0.05
 		state_infrastructure_add = 2
 		country_military_goods_cost_mult = 0.01
+		#building_training_rate_mult = -0.02
 	}
 
 	ai_weight = {
@@ -72,6 +74,7 @@ br_tech_michaniki_politia = {
 		military_formation_mobilization_speed_mult = 0.1
 		military_formation_supply_limit_add = 5
 		country_military_goods_cost_mult = 0.02
+		#building_training_rate_mult = -0.03
 	}
 
 	ai_weight = {
@@ -94,6 +97,7 @@ br_tech_cheiroballistra_enhancements = {
 		unit_army_offense_add = 2
 		unit_morale_damage_mult = 0.02
 		country_military_goods_cost_mult = 0.01
+		#building_training_rate_mult = -0.02
 	}
 
 	ai_weight = {
@@ -115,6 +119,7 @@ br_tech_pneumatika_epibatikon = {
 		unit_kill_rate_add = 0.04
 		unit_morale_damage_mult = 0.05
 		country_military_goods_cost_mult = 0.02
+		#building_training_rate_mult = -0.03
 	}
 
 	ai_weight = {
@@ -137,6 +142,7 @@ br_tech_strategikon_automaton = {
 		unit_army_defense_add = 2
 		unit_army_experience_gain_mult = 0.05
 		country_military_goods_cost_mult = 0.03
+		#building_training_rate_mult = -0.04
 	}
 
 	ai_weight = {
@@ -181,6 +187,7 @@ br_tech_kleisoura_behemoths = {
 		unit_occupation_mult = 0.1
 		unit_morale_damage_mult = 0.05
 		country_military_goods_cost_mult = 0.03
+		#building_training_rate_mult = -0.04
 	}
 
 	ai_weight = {

@@ -1,7 +1,7 @@
 ﻿br_tech_ergasterion_automatika = {
 	# Early adoption of steam-driven gearwork automation in manufactories and workshops.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/ergasterion_automatika.png"
+	texture = "gfx/interface/icons/invention_icons/br_ergasterion_automatika.png"
 	category = production
 
 	modifier = {
@@ -16,7 +16,7 @@
 br_tech_ergostasia_aetos = {
 	# Massive manufactories arise, powered by gear-driven presses, steam conveyers, and industrial forges.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/ergostasia_aetos.png"
+	texture = "gfx/interface/icons/invention_icons/br_ergostasia_aetos.png"
 	category = production
 
 	unlocking_technologies = {
@@ -37,7 +37,7 @@ br_tech_ergostasia_aetos = {
 br_tech_georgika_mekhanika = {
 	# Steam-driven ploughs and mechanical seeders revolutionize agricultural production.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/georgika_mekhanika.png"
+	texture = "gfx/interface/icons/invention_icons/br_georgika_mekhanika.png"
 	category = production
 
 	unlocking_technologies = {
@@ -58,7 +58,7 @@ br_tech_georgika_mekhanika = {
 br_tech_metalleia_aitherikon = {
 	# Steam drills and gear-driven extractors allow deeper mining and faster resource recovery.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/metalleia_aitherikon.png"
+	texture = "gfx/interface/icons/invention_icons/br_metalleia_aitherikon.png"
 	category = production
 
 	unlocking_technologies = {
@@ -78,7 +78,7 @@ br_tech_metalleia_aitherikon = {
 br_tech_diktya_aithermikou = {
 	# Gear-driven trams, steam cargo haulers, and mechanical lifts enhance internal transportation networks.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/georgika_mekhanika.png"
+	texture = "gfx/interface/icons/invention_icons/br_diktya_aithermikou.png"
 	category = production
 
 	unlocking_technologies = {
@@ -101,7 +101,7 @@ br_tech_diktya_aithermikou = {
 br_tech_megaloergastiria = {
 	# Vast interconnected steam-powered industrial complexes employing automated machinery on unprecedented scales.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/ergostasia_aetos.png"
+	texture = "gfx/interface/icons/invention_icons/br_megaloergastiria.png"
 	category = production
 
 	unlocking_technologies = {
@@ -121,7 +121,7 @@ br_tech_megaloergastiria = {
 br_tech_aerokarterio = {
 	# Steam-driven airships adapted to freight transport, connecting major cities and industries.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/zeppelins.dds"
+	texture = "gfx/interface/icons/invention_icons/br_aerokarterio.png"
 	category = production
 
 	unlocking_technologies = {

@@ -16,7 +16,7 @@
 br_tech_automatoi_stratiotai = {
 	# Early mechanical enhancements for infantry and artillery crews, with semi-mechanical loaders, cranking devices, and defensive gear.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_automatoi_stratiotai.png"
 	category = military
 
 	unlocking_technologies = {
@@ -62,7 +62,7 @@ br_tech_syndesmos_mechanikai = {
 br_tech_michaniki_politia = {
 	# Advanced steam-driven logistics and mechanical administration streamline army mobilization and sustainment.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_logistics.png"
+	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
 	category = military
 
 	unlocking_technologies = {
@@ -85,7 +85,7 @@ br_tech_michaniki_politia = {
 br_tech_cheiroballistra_enhancements = {
 	# Development of rotary-firing mechanisms, creating devastating rapid-fire projectile launchers for infantry support.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_cheiroballistra_enhancements.png"
 	category = military
 
 	unlocking_technologies = {
@@ -108,7 +108,7 @@ br_tech_cheiroballistra_enhancements = {
 br_tech_pneumatika_epibatikon = {
 	# Experimental high-pressure pneumatic and steam weaponry adapted for close assault infantry units.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_cheiroballistra_enhancements.png"
 	category = military
 
 	unlocking_technologies = {
@@ -116,7 +116,7 @@ br_tech_pneumatika_epibatikon = {
 	}
 
 	modifier = {
-		unit_kill_rate_add = 0.04
+		unit_kill_rate_add = 0.05
 		unit_morale_damage_mult = 0.05
 		country_military_goods_cost_mult = 0.02
 		#building_training_rate_mult = -0.03
@@ -130,7 +130,7 @@ br_tech_pneumatika_epibatikon = {
 br_tech_strategikon_automaton = {
 	# Enhanced clockwork augmentations for infantry: recoil dampening exoskeletons and automated weapon loading systems.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_strategikon_automaton.png"
 	category = military
 
 	unlocking_technologies = {
@@ -138,8 +138,8 @@ br_tech_strategikon_automaton = {
 	}
 
 	modifier = {
-		unit_army_offense_add = 3
-		unit_army_defense_add = 2
+		unit_army_offense_add = 4
+		unit_army_defense_add = 3
 		unit_army_experience_gain_mult = 0.05
 		country_military_goods_cost_mult = 0.03
 		#building_training_rate_mult = -0.04
@@ -153,7 +153,7 @@ br_tech_strategikon_automaton = {
 br_tech_naus_hypoplon = {
 	# Steam-powered submersible vessels designed for stealth attacks and disruption of enemy supply lines at sea.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/naus_hypoplon.png"
+	texture = "gfx/interface/icons/invention_icons/br_naus_hypoplon.png"
 	category = military
 
 	unlocking_technologies = {
@@ -173,7 +173,7 @@ br_tech_naus_hypoplon = {
 br_tech_kleisoura_behemoths = {
 	# Deployment of early steam-driven armored landships, adapted to breach fortifications and break siege lines.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/kleisoura_behemoth.png"
+	texture = "gfx/interface/icons/invention_icons/br_kleisoura_behemoth.png"
 	category = military
 
 	unlocking_technologies = {
@@ -182,7 +182,7 @@ br_tech_kleisoura_behemoths = {
 	}
 
 	modifier = {
-		unit_army_offense_add = 4
+		unit_army_offense_add = 5
 		unit_devastation_mult = 0.1
 		unit_occupation_mult = 0.1
 		unit_morale_damage_mult = 0.05

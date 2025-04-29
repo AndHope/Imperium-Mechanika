@@ -11,6 +11,8 @@
  br_tech_strategikon_automaton_desc: "Advanced mechanical augmentations refine infantry performance. Recoil-dampening frames and automated loading mechanisms produce faster, more lethal, and more resilient soldiers."
  br_tech_syndesmos_mechanikai: "Syndesmos Mechanikai"
  br_tech_syndesmos_mechanikai_desc: "Mechanized logistics corps employ steam-powered supply wagons and gear-driven platforms to extend operational reach, sustain larger armies, and reduce battlefield attrition."
+ br_tech_michaniki_politia: "Michaniki Politia"
+ br_tech_michaniki_politia_desc: "Steam-driven communications, gear-operated logistics, and mechanical field organization revolutionize army mobilization. Forces move faster, coordinate better, and sustain operations deeper into enemy territory."
  br_tech_cheiroballistra_enhancements: "Cheiroballistra Enhancements"
  br_tech_cheiroballistra_enhancements_desc: "Rotary-firing mechanisms allow for rapid-fire projectile launchers, overwhelming enemy formations with barrages of bolts and munitions at unprecedented speed."
  br_tech_pneumatika_epibatikon: "Pneumatika Epibatikon"
@@ -23,10 +25,25 @@
 
 
  #Production
- br_tech_ergastiria_aeternum: "Ergastiria Aeternum"
- br_tech_ergastiria_aeternum_desc: "The rebirth of industry through steam and mechanical automation, expanding production capabilities and strengthening the material foundation of the Empire."
+ br_tech_ergasterion_automatika: "Ergasterion Automatika"
+ br_tech_ergasterion_automatika_desc: "Early steam-driven gearwork systems begin replacing traditional artisanal methods. Workshops adopting mechanical automation mark the first great shift toward industrialized production."
+ br_tech_ergostasia_aetos: "Ergostasia Aetos"
+ br_tech_ergostasia_aetos_desc: "Industrial manufactories arise powered by mechanical presses, steam conveyers, and automated forges. These industrial complexes produce goods at unprecedented speed and scale."
+ br_tech_georgika_mekhanika: "Georgika Mekhanika"
+ br_tech_georgika_mekhanika_desc: "Steam-driven ploughs, mechanical seeders, and gear-powered irrigation systems revolutionize agriculture. Fields once tilled by hand now yield to the relentless advance of machinery."
+ br_tech_metalleia_aitherikon: "Metalleia Aitherikon"
+ br_tech_metalleia_aitherikon_desc: "The mining industry is transformed by steam drills and gear-driven extractors. Deeper seams of coal, iron, and precious ores become accessible as machines replace manual labor in the pits."
+ br_tech_diktya_aithermikou: "Diktya Aithermikou"
+ br_tech_diktya_aithermikou_desc: "Gear-driven trams, steam cargo haulers, and mechanical lifts reshape our nations internal transport networks, accelerating commerce and industrial expansion."
+ br_tech_megaloergastiria: "Megaloergastiria"
+ br_tech_megaloergastiria_desc: "Vast interconnected steam-powered industrial complexes dominate the landscape. Automated assembly lines, powered by endless gearwork, drive the next great leap in mechanized production."
+ br_tech_aerokarterio: "Aerokarterio"
+ br_tech_aerokarterio_desc: "Steam-driven airships adapted for freight transport connect distant cities and industrial hubs. These aerial leviathans reduce transport costs and extend our reach into the skies."
+
 
 
  #Society
  br_tech_organon_politikon: "Organon Politikon"
  br_tech_organon_politikon_desc: "Mechanical and steam technologies are adapted to governance, communication, and societal structures, reshaping the Empire's administration."
+
+ 

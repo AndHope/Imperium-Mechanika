@@ -1,14 +1,140 @@
-﻿br_tech_ergastiria_aeternum = {
-	# The rebirth of industry through steam and mechanical automation, expanding production capabilities and strengthening the material foundation of the Empire.
+﻿br_tech_ergasterion_automatika = {
+	# Early adoption of steam-driven gearwork automation in manufactories and workshops.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/mechanized_workshops.dds" # Suggest factory, machine, or steam engine themed icon
+	texture = "gfx/interface/icons/invention_icons/ergasterion_automatika.png"
 	category = production
 
 	modifier = {
-		country_weekly_innovation_max_add = 5
+		building_group_bg_manufacturing_throughput_add = 0.05
 	}
 
 	ai_weight = {
 		value = 1
 	}
 }
+
+br_tech_ergostasia_aetos = {
+	# Massive manufactories arise, powered by gear-driven presses, steam conveyers, and industrial forges.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/ergostasia_aetos.png"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_ergasterion_automatika
+	}
+
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.1
+		state_pollution_generation_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_georgika_mekhanika = {
+	# Steam-driven ploughs and mechanical seeders revolutionize agricultural production.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/georgika_mekhanika.png"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_ergasterion_automatika
+	}
+
+	modifier = {
+		building_group_bg_agriculture_throughput_add = 0.1
+		building_group_bg_plantations_throughput_add = 0.1
+		state_pollution_generation_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_metalleia_aitherikon = {
+	# Steam drills and gear-driven extractors allow deeper mining and faster resource recovery.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/metalleia_aitherikon.png"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_ergasterion_automatika
+	}
+
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.1
+		state_pollution_generation_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_diktya_aithermikou = {
+	# Gear-driven trams, steam cargo haulers, and mechanical lifts enhance internal transportation networks.
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/georgika_mekhanika.png"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_ergasterion_automatika
+	}
+
+	modifier = {
+		building_construction_sector_throughput_add = 0.1
+		state_infrastructure_add = 5
+		building_economy_of_scale_level_cap_add = 5
+		state_pollution_generation_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_megaloergastiria = {
+	# Vast interconnected steam-powered industrial complexes employing automated machinery on unprecedented scales.
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/ergostasia_aetos.png"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_ergostasia_aetos
+	}
+
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.1
+		state_pollution_generation_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+br_tech_aerokarterio = {
+	# Steam-driven airships adapted to freight transport, connecting major cities and industries.
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/zeppelins.dds"
+	category = production
+
+	unlocking_technologies = {
+		br_tech_diktya_aithermikou
+	}
+
+	modifier = {
+		country_trade_route_quantity_mult = 0.25
+		building_construction_sector_throughput_add = 0.1
+		state_infrastructure_add = 5
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+

@@ -26,6 +26,7 @@ br_tech_ergostasia_aetos = {
 	modifier = {
 		building_group_bg_manufacturing_throughput_add = 0.1
 		state_pollution_generation_add = 5
+		#state_laborers_mortality_mult = 0.1
 	}
 
 	ai_weight = {
@@ -89,6 +90,7 @@ br_tech_diktya_aithermikou = {
 		state_infrastructure_add = 5
 		building_economy_of_scale_level_cap_add = 5
 		state_pollution_generation_add = 5
+		state_market_access_price_impact = 0.05
 	}
 
 	ai_weight = {
@@ -130,6 +132,7 @@ br_tech_aerokarterio = {
 		country_trade_route_quantity_mult = 0.25
 		building_construction_sector_throughput_add = 0.1
 		state_infrastructure_add = 5
+		state_market_access_price_impact = 0.05
 	}
 
 	ai_weight = {

@@ -1,7 +1,7 @@
 ﻿br_tech_organon_mechanikon = {
 	# Steam-driven administrative systems begin to reshape governance, with mechanized offices, gear-powered filing systems, and pressure-driven communication networks.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
 	category = society
 
 	modifier = {
@@ -19,7 +19,7 @@
 br_tech_grammateia_automatika = {
 	# Automated registry machines and steam-powered census bureaus streamline state administration and enable more efficient lawmaking.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
 	category = society
 
 	unlocking_technologies = {
@@ -41,7 +41,7 @@ br_tech_grammateia_automatika = {
 br_tech_pneumatika_diktya = {
 	# Empire-wide pneumatic tube networks allow secure and rapid communication between cities, enhancing control and coordination of institutions.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_pneumatika_diktya.png"
 	category = society
 
 	unlocking_technologies = {
@@ -62,7 +62,7 @@ br_tech_pneumatika_diktya = {
 br_tech_asty_aitheromekhanon = {
 	# Urban infrastructure is redesigned around steam distribution, modular construction, and pressure-driven public systems.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_asty_aitheromekhanon.png"
 	category = society
 
 	unlocking_technologies = {
@@ -86,7 +86,7 @@ br_tech_asty_aitheromekhanon = {
 br_tech_mechano_paideia = {
 	# Education is transformed through mechanical learning aids, standardization, and widespread printing by steam-powered presses.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
 	category = society
 
 	unlocking_technologies = {
@@ -109,7 +109,7 @@ br_tech_mechano_paideia = {
 br_tech_iatreia_automaton = {
 	# Steam-powered medical instruments and automated clinical devices begin to transform healthcare and reduce mortality across the Empire.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
 	category = society
 
 	unlocking_technologies = {
@@ -117,9 +117,9 @@ br_tech_iatreia_automaton = {
 	}
 
 	modifier = {
-		institution_health_system_throughput_mult = 0.05
 		country_institution_health_system_max_investment_add = 1
-		pop_mortality_mult = -0.05
+		state_mortality_wealth_mult = -0.004
+		state_pollution_reduction_health_mult = -0.1
 	}
 
 	ai_weight = {
@@ -130,7 +130,7 @@ br_tech_iatreia_automaton = {
 br_tech_dikaiosyne_automaton = {
 	# Steam-driven legal processors and predictive justice models streamline the judicial system while expanding state control over law enforcement.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_helmet_golden_gear.png"
+	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
 	category = society
 
 	unlocking_technologies = {

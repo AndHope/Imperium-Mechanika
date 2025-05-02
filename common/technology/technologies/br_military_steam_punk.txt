@@ -62,7 +62,7 @@ br_tech_syndesmos_mechanikai = {
 br_tech_michaniki_politia = {
 	# Advanced steam-driven logistics and mechanical administration streamline army mobilization and sustainment.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	texture = "gfx/interface/icons/invention_icons/br_michaniki_politia.png"
 	category = military
 
 	unlocking_technologies = {

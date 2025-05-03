@@ -1,7 +1,7 @@
 ﻿br_tech_organon_mechanikon = {
 	# Steam-driven administrative systems begin to reshape governance, with mechanized offices, gear-powered filing systems, and pressure-driven communication networks.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
+	texture = "gfx/interface/icons/invention_icons/br_organon_mechanikon.png"
 	category = society
 
 	modifier = {
@@ -86,7 +86,7 @@ br_tech_asty_aitheromekhanon = {
 br_tech_mechano_paideia = {
 	# Education is transformed through mechanical learning aids, standardization, and widespread printing by steam-powered presses.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
+	texture = "gfx/interface/icons/invention_icons/br_mechano_paideia.png"
 	category = society
 
 	unlocking_technologies = {
@@ -109,7 +109,7 @@ br_tech_mechano_paideia = {
 br_tech_iatreia_automaton = {
 	# Steam-powered medical instruments and automated clinical devices begin to transform healthcare and reduce mortality across the Empire.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
+	texture = "gfx/interface/icons/invention_icons/br_iatreia_automaton.png"
 	category = society
 
 	unlocking_technologies = {
@@ -130,7 +130,7 @@ br_tech_iatreia_automaton = {
 br_tech_dikaiosyne_automaton = {
 	# Steam-driven legal processors and predictive justice models streamline the judicial system while expanding state control over law enforcement.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_grammateia_automatika.png"
+	texture = "gfx/interface/icons/invention_icons/br_dikaiosyne_automaton.png"
 	category = society
 
 	unlocking_technologies = {

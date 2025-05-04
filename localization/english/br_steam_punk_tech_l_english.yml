@@ -4,24 +4,23 @@
 
  #Military
  br_tech_strategikon_mechanika: "Strategikon Mechanika"
- br_tech_strategikon_mechanika_desc: "The mechanical evolution of warfare begins, integrating steam and gearwork technologies into military equipment and battlefield operations."
+ br_tech_strategikon_mechanika_desc: "The art of war enters a new age as steam engines and gearwork mechanisms are integrated into weapons, armor, and battlefield strategy. The Strategikon is rewritten in brass and steel."
  br_tech_automatoi_stratiotai: "Automatoi Stratiotai"
- br_tech_automatoi_stratiotai_desc: "Mechanical augmentation becomes an integral part of military operations. Infantry formations are equipped with mechanical loaders, limb reinforcements, and spring-driven mechanisms that enhance endurance, weapon handling, and resilience under battlefield stress"
+ br_tech_automatoi_stratiotai_desc: "Infantry formations march with limbs reinforced by springs and servos, their weapons reloaded by gear-driven loaders. The Automatoi Stratiotai are the vanguard of a mechanized military ethos—stronger, faster, and tireless."
  br_tech_strategikon_automaton: "Strategikon Automaton"
- br_tech_strategikon_automaton_desc: "Advanced mechanical augmentations refine infantry performance. Recoil-dampening frames and automated loading mechanisms produce faster, more lethal, and more resilient soldiers."
+ br_tech_strategikon_automaton_desc: "Infantry becomes indistinguishable from machine as recoil-dampening exoframes and autoloading harnesses transform soldiers into precise instruments of destruction. The new Strategikon is etched into iron limbs and copper nerves."
  br_tech_syndesmos_mechanikai: "Syndesmos Mechanikai"
- br_tech_syndesmos_mechanikai_desc: "Mechanized logistics corps employ steam-powered supply wagons and gear-driven platforms to extend operational reach, sustain larger armies, and reduce battlefield attrition."
+ br_tech_syndesmos_mechanikai_desc: "Steam-powered supply wagons and gear-lifted platforms carry rations, munitions, and reserves across vast distances. With Syndesmos Mechanikai, the empire sustains armies longer and strikes deeper into hostile lands."
  br_tech_michaniki_politia: "Michaniki Politia"
- br_tech_michaniki_politia_desc: "Steam-driven communications, gear-operated logistics, and mechanical field organization revolutionize army mobilization. Forces move faster, coordinate better, and sustain operations deeper into enemy territory."
+ br_tech_michaniki_politia_desc: "A revolution in military command: steam-messengers, gear-run logistics, and mechanized field tables enable faster mobilization and flawless coordination. Michaniki Politia is the state made motion."
  br_tech_cheiroballistra_enhancements: "Cheiroballistra Enhancements"
- br_tech_cheiroballistra_enhancements_desc: "Rotary-firing mechanisms allow for rapid-fire projectile launchers, overwhelming enemy formations with barrages of bolts and munitions at unprecedented speed."
+ br_tech_cheiroballistra_enhancements_desc: "Rotary-firing systems and spring-reloading chambers transform the cheiroballistra into a storm of bolts. Enemy lines are shattered beneath unrelenting mechanical volleys."
  br_tech_pneumatika_epibatikon: "Pneumatika Epibatikon"
- br_tech_pneumatika_epibatikon_desc: "High-pressure pneumatic and steam-propelled weaponry is deployed for shock assault infantry. Devastating at close range, these experimental units trade durability for overwhelming offensive power."
+ br_tech_pneumatika_epibatikon_desc: "Shock troops wield pneumatic lances and steam-propelled weaponry, bursting into enemy lines with explosive force. Lethal at close range, Pneumatika Epibatikon trade armor for impact."
  br_tech_kleisoura_behemoths: "Kleisoura Behemoths"
- br_tech_kleisoura_behemoths_desc: "Early steam-driven armored landships, inspired by naval ironclads, are deployed to breach fortifications and break siege lines. Though slow and cumbersome, these mechanical behemoths batter defenses with relentless force and shatter enemy morale."
-
+ br_tech_kleisoura_behemoths_desc: "Steam-belching landships, clad in riveted armor, crawl toward enemy walls like bronze beasts of war. Though slow, the Kleisoura Behemoths crush fortifications and will alike beneath their relentless advance."
  br_tech_naus_hypoplon: "Naus Hypoplon"
- br_tech_naus_hypoplon_desc: "Steam-driven submersible vessels operate beneath the waves, capable of stealth attacks and disruption of enemy shipping lines. Naval warfare enters a new dimension of hidden threat."
+ br_tech_naus_hypoplon_desc: "Beneath the waves lurk the Naus Hypoplon—submersible steamcraft capable of unseen strikes and silent ambushes. Naval warfare is no longer bound to the surface."
 
 
  #Production

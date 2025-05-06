@@ -38,7 +38,7 @@ br_tech_automatoi_stratiotai = {
 br_tech_syndesmos_mechanikai = {
 	# Mechanized logistics corps using steam-driven supply platforms and mechanical wagons to support extended campaigns.
 	era = era_3
-	texture = "gfx/interface/icons/invention_icons/br_steampunk_steam_wagon.png"
+	texture = "gfx/interface/icons/invention_icons/br_syndesmos_mechanikai.png"
 	category = military
 
 	unlocking_technologies = {
@@ -108,7 +108,7 @@ br_tech_cheiroballistra_enhancements = {
 br_tech_pneumatika_epibatikon = {
 	# Experimental high-pressure pneumatic and steam weaponry adapted for close assault infantry units.
 	era = era_4
-	texture = "gfx/interface/icons/invention_icons/br_cheiroballistra_enhancements.png"
+	texture = "gfx/interface/icons/invention_icons/br_pneumatika_epibatikon.png"
 	category = military
 
 	unlocking_technologies = {

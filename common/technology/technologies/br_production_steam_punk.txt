@@ -121,7 +121,7 @@ br_tech_megaloergastiria = {
 br_tech_aerokarterio = {
 	# Steam-driven airships adapted to freight transport, connecting major cities and industries.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/zeppelins.dds"
+	texture = "gfx/interface/icons/invention_icons/br_aerokarterio.png"
 	category = production
 
 	unlocking_technologies = {

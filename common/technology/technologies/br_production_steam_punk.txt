@@ -101,7 +101,7 @@ br_tech_diktya_aithermikou = {
 br_tech_megaloergastiria = {
 	# Vast interconnected steam-powered industrial complexes employing automated machinery on unprecedented scales.
 	era = era_5
-	texture = "gfx/interface/icons/invention_icons/br_megaloergastiria.png"
+	texture = "gfx/interface/icons/invention_icons/br_asty_aitheromekhanon.png"
 	category = production
 
 	unlocking_technologies = {

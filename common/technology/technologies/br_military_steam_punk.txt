@@ -72,7 +72,7 @@ br_tech_michaniki_politia = {
 	modifier = {
 		military_formation_movement_speed_mult = 0.1
 		military_formation_mobilization_speed_mult = 0.1
-		military_formation_supply_limit_add = 5
+		military_formation_organization_gain_mult = 0.1
 		country_military_goods_cost_mult = 0.02
 		#building_training_rate_mult = -0.03
 	}

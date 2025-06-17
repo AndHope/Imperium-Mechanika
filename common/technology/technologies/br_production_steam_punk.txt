@@ -129,7 +129,7 @@ br_tech_aerokarterio = {
 	}
 
 	modifier = {
-		country_trade_route_quantity_mult = 0.25
+		state_trade_quantity_mult = 0.25
 		building_construction_sector_throughput_add = 0.1
 		state_infrastructure_add = 5
 		state_market_access_price_impact = 0.05

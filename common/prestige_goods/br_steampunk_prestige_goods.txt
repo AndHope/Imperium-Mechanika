@@ -1,0 +1,13 @@
+﻿# prestige_goods types
+
+prestige_good_br_steampunk_tools = {
+	base_good = tools
+	prestige_bonus = 0.2
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_br_steampunk_tools.dds"
+}
+
+prestige_good_br_steampunk_engines = {
+	base_good = engines
+	prestige_bonus = 0.2
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_br_steampunk_engines.dds"
+}

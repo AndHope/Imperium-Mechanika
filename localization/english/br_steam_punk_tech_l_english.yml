@@ -57,6 +57,11 @@
  br_tech_iatreia_automaton: "Iatreia Automaton"
  br_tech_iatreia_automaton_desc: "Hospitals and clinics adopt steam-powered surgical equipment, gear-assisted diagnosis stations, and mechanical sanitation tools. Medicine enters the industrial age—not with mysticism, but with precision engineering."
 
+ #companies
+ company_br_steampunk_machines: "Archimēdōn Automatopoiēma"
+ company_br_steampunk_engines: "Mechanikon Autodýnamon"
 
-
+ #prestige goods
+ prestige_good_br_steampunk_tools: "Aithermikós Autodrillōn"
+ prestige_good_br_steampunk_engines: "Autokíneton Automēchanē"
  

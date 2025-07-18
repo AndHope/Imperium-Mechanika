@@ -1,43 +1,38 @@
-﻿pm_br_steampunk_agro_none = {
-	texture = "gfx/interface/budget/budget_set_very_low.dds"
-	
-	country_modifiers = {
-		workforce_scaled = { 
-			
-		}
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			
-		}
-		
-		level_scaled = {
-			
-		}
-	}
-}
+﻿#pm_br_steampunk_agro_none = {
+#	texture = "gfx/interface/budget/budget_set_very_low.dds"
+#	
+#	country_modifiers = {
+#		workforce_scaled = { 
+#			
+#		}
+#	}
+#	
+#	building_modifiers = {
+#		workforce_scaled = {
+#			
+#		}
+#		
+#		level_scaled = {
+#			
+#		}
+#	}
+#}
 
-pm_br_steampunk_agro_one = {
-	texture = "gfx/interface/budget/budget_set_medium.dds"
-	
-	unlocking_technologies = {
-		
-	}				
-	
-	country_modifiers = {
-		workforce_scaled = {
-
-		} 
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			
-		}
-		
-		level_scaled = {
-			
-		}					
-	}
-}
+#pm_br_steampunk_agro_one = {
+#	texture = "gfx/interface/budget/budget_set_medium.dds"
+#	
+#	unlocking_technologies = {
+#		br_tech_georgika_mekhanika
+#	}				
+#	
+#	building_modifiers = {
+#		workforce_scaled = {
+#			# input goods					
+#			goods_input_tools_add = 1
+#		}
+#
+#		level_scaled = {
+#			building_employment_laborers_add = -1000
+#		}				
+#	}
+#}

@@ -1,18 +1,19 @@
-﻿pmg_br_steampunk_agro = {
-	texture = "gfx/interface/icons/generic_icons/steampunkicon.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-
-	}
-}
-
-
-pmg_br_steampunk_industry = {
-	texture = "gfx/interface/icons/generic_icons/steampunkicon.dds"
-	ai_selection = most_productive
-
-	production_methods = {
-
-	}
-}
+﻿#pmg_br_steampunk_agro = {
+#	texture = "gfx/interface/icons/generic_icons/steampunkicon.dds"
+#	ai_selection = most_productive
+#
+#	production_methods = {
+#		pm_br_steampunk_agro_none
+#		pm_br_steampunk_agro_one
+#	}
+#}
+#
+#
+#pmg_br_steampunk_industry = {
+#	texture = "gfx/interface/icons/generic_icons/steampunkicon.dds"
+#	ai_selection = most_productive
+#
+#	production_methods = {
+#
+#	}
+#}

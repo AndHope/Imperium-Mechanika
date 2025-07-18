@@ -1,0 +1,99 @@
+﻿#BR mod unique steampunk Companies
+
+company_br_steampunk_machines = {
+	icon = "gfx/interface/icons/company_icons/company_br_steampunk_machines.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+
+	flavored_company = yes
+
+	replaces_company = company_basic_metalworks
+
+	preferred_headquarters = { STATE_EASTERN_THRACE }
+
+	building_types = {
+		building_tooling_workshops
+		building_steel_mills
+	}
+
+	extension_building_types = {
+		building_iron_mine
+	}
+
+	possible_prestige_goods = {
+		prestige_good_br_steampunk_tools
+	}
+
+	potential = {
+		has_technology_researched = br_tech_ergasterion_automatika
+	}
+
+
+	possible = {
+		has_technology_researched = br_tech_ergasterion_automatika
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tooling_workshops
+				level >= 5
+			}
+		}
+	}
+
+	prosperity_modifier = {
+		building_tooling_workshops_throughput_add = 0.15
+	}
+
+
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+company_br_steampunk_engines = {
+	icon = "gfx/interface/icons/company_icons/company_br_steampunk_engines.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
+	
+	flavored_company = yes
+
+	preferred_headquarters = { STATE_EASTERN_THRACE }
+
+	replaces_company = company_basic_motors
+	
+	building_types = {  
+		building_motor_industry
+		building_automotive_industry
+	}
+
+	extension_building_types = {
+		building_railway
+	}
+
+	possible_prestige_goods = {
+		prestige_good_br_steampunk_engines
+	}
+	
+	potential = {
+		has_technology_researched = br_tech_ergasterion_automatika
+	}
+	
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_motor_industry
+				level > 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_motor_industry_throughput_add = 0.15
+		building_automotive_industry_throughput_add = 0.1
+		building_railway_throughput_add = 0.1
+	}
+
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}

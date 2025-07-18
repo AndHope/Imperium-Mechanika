@@ -51,7 +51,7 @@ company_br_steampunk_machines = {
 
 company_br_steampunk_engines = {
 	icon = "gfx/interface/icons/company_icons/company_br_steampunk_engines.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_corn.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	
 	flavored_company = yes
 
